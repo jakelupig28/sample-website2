@@ -5,7 +5,7 @@ import { motion } from "framer-motion";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white pt-8 pb-8 overflow-hidden relative">
+    <footer className="bg-black text-white pt-8 pb-0 overflow-hidden relative">
       {/* Background Soft Floral Accent (Uncontained organic ambient bloom) */}
       <div className="absolute -bottom-1/4 -right-20 md:-right-48 w-[450px] md:w-[750px] h-[450px] md:h-[750px] pointer-events-none opacity-15 mix-blend-screen overflow-hidden">
         {/* eslint-disable-next-line @next/next/no-img-element */}
@@ -129,9 +129,9 @@ export default function Footer() {
       </motion.div>
 
       {/* Developed by attribution */}
-      <div className="relative z-10 w-full min-h-[64px] flex items-center justify-center text-center border-t border-white/10 mt-8 pt-6 pb-2 px-4">
-        <p className="text-xs sm:text-sm tracking-widest text-zinc-400">
-          Developed by: Jake Lupig
+      <div className="relative z-10 w-full flex items-center justify-center text-center border-t border-white/10 mt-4 sm:mt-6 py-2.5 sm:py-3 px-4">
+        <p className="text-[10px] sm:text-[11px] tracking-[0.2em] font-light text-zinc-400">
+          Developed by: JAKE LUPIG
         </p>
       </div>
     </footer>
