@@ -127,6 +127,13 @@ export default function Footer() {
           AETHER
         </h2>
       </motion.div>
+
+      {/* Developed by attribution */}
+      <div className="relative z-10 w-full min-h-[64px] flex items-center justify-center text-center border-t border-white/10 mt-8 pt-6 pb-2 px-4">
+        <p className="text-xs sm:text-sm tracking-widest text-zinc-400">
+          Developed by: Jake Lupig
+        </p>
+      </div>
     </footer>
   );
 }
